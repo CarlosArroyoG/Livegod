@@ -82,7 +82,6 @@
         </style>
         <script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.es.YT8tjDBZJ88.O/d=1/exm=el_conf/ed=1/rs=AN8SPfr38fYG2EcKF0WAwbyxMXVTohEXzw/m=el_main"></script><link id="MonoTypeFontApiFontTracker" type="text/css" rel="stylesheet" href="https://fast.fonts.net/t/1.css?apiType=js&amp;projectid=1332a0dd-3884-468a-bdc0-681ea42c6962"></head>
     <body style="position: relative; min-height: 100%; top: 0px;">
-
         <style>
             .open-video-popup-link {
                 display: block;
@@ -188,34 +187,7 @@
             }
         </style>
 
-        <!-- Video Pop Up -->
-        <div class="modal fade" id="videoPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg modal-max-size" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="addToCart">
-                            <span class="text--orange font-weight-normal">Live</span>
-                            <strong>G<span class="text--green">oo</span>d</strong>
-                        </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div id="productNameContainer" class="product-name-container"></div>
-
-                        <div class="video-container">
-                            <div
-                                class="youtube-video-embed-container">
-                                <!-- <iframe id="videoFrame" src="https://www.youtube.com/embed/bSWhXjvsf0M?rel=0&amp;autoplay=1" width="640" height="460" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> -->
-                                <iframe id="videoFrame" src="https://www.youtube.com/embed/7sOD814A_tw?rel=0&amp;autoplay=1" title="YouTube video player" width="560" height="315" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      
 
         <div class="top-line" style="text-align:center">
             <div class="welcome-msg-block" style="display:inline-block">
@@ -271,7 +243,7 @@
                             </ul>
                         </div>
 
-                        <a href="javascript:void(0)" class="open-video-popup-link" onclick="openVideoPopup('url')">
+                        <a href="./presentacion.mp4" class="open-video-popup-link" onclick="openVideoPopup('url')">
                             <div
                                 class="video-box">
                                 <!-- <img src="/images/l1/play-button-orange.png"> -->
@@ -372,7 +344,7 @@
                     /* let productText = 'Add ' + productName + ' to cart.';
       jQuery('#productNameContainer').text(productText); */
 
-                    videoFrame.src = 'https://www.youtube.com/embed/7sOD814A_tw?rel=0&amp;autoplay=1';
+                    videoFrame.src = './presentacion.mp4';
                 }
 
                 jQuery('#videoPopup').on('hidden.bs.modal', function (e) {

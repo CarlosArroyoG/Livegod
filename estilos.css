@@ -376,3 +376,35 @@ input[type=submit]{font-size:24px;}
 @font-face{font-family:"Helvetica Neue LT W05_97 Blk C";src:url("https://fast.fonts.net/dv2/14/f2f49a5e-567d-4dfa-8152-c28c8f60c84e.woff2?d44f19a684109620e484157da590e818d4069b168989a9261bfe7912a47b5d410e2b87db1d94918e71f3987141941871eaf9cfd9a5870018ce19385e86872d65a8c45aac9fe99ad3a30917f2728f76c73de000fc428dc4c0a9ee4fd2a8656c9f886147c4d2ed43fa7b4f57b496e224bc2bf122827d2006969fba6a8fd84d3d3538544c7b4e6ed62a9178687a027e&projectId=1332a0dd-3884-468a-bdc0-681ea42c6962") format('woff2');}
 @font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:auto;src:url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.eot);src:url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.woff2) format("woff2"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.woff) format("woff"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.ttf) format("truetype"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.svg#fontawesome) format("svg");}
 @font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:auto;src:url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.eot);src:url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.woff2) format("woff2"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.woff) format("woff"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.ttf) format("truetype"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.svg#fontawesome) format("svg");}
+/*! CSS Used from: https://www.livegoodtour.com/htdocs/l1/bootstrap.css */
+*,::after,::before{box-sizing:border-box;}
+a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#0056b3;text-decoration:underline;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+}
+/*! CSS Used from: https://www.livegoodtour.com/htdocs/l1/style.css */
+.video-box{display:flex;border:2px solid #599123;background-color:black;height:288px;justify-content:space-evenly;align-items:center;margin-bottom:50px;text-align:center;width:100%;}
+@media (min-width: 992px){
+.video-box{margin-bottom:30px;}
+}
+/*! CSS Used from: https://use.fontawesome.com/releases/v5.7.2/css/all.css */
+.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.fa-play:before{content:"\f04b";}
+.fas{font-family:"Font Awesome 5 Free";}
+.fas{font-weight:900;}
+/*! CSS Used from: Embedded */
+.open-video-popup-link{display:block;height:auto;text-decoration:none;width:100%;}
+.video-box{display:flex;background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(https://www.livegoodtour.com/images/l1/powerline-lander-video-screenshot.jpg?2) no-repeat;background-position:center bottom;background-size:cover;align-items:center;justify-content:space-evenly;text-align:center;}
+@media (min-width: 768px){
+.video-box{height:425px;}
+}
+@media (min-width: 992px){
+.video-box{height:288px;}
+}
+.video-box-btn__play-icon-box{background-color:#ff0000;border:1px solid transparent;border-radius:10px;height:40px;margin:0 auto;width:60px;}
+.video-box-btn__play-icon{color:#fff;font-size:18px;line-height:40px;opacity:1;}
+/*! CSS Used fontfaces */
+@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:auto;src:url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.eot);src:url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.woff2) format("woff2"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.woff) format("woff"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.ttf) format("truetype"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-regular-400.svg#fontawesome) format("svg");}
+@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:auto;src:url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.eot);src:url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.woff2) format("woff2"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.woff) format("woff"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.ttf) format("truetype"),url(https://use.fontawesome.com/releases/v5.7.2/webfonts/fa-solid-900.svg#fontawesome) format("svg");}
